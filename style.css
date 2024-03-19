@@ -5,6 +5,15 @@
 }
 header {
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     display: flex;
+    background-color: grey;
+    padding: 10px;
+}
+header ul {
+  display: flex;
+  justify-content: center;
+  gap: 1pc;
+  list-style: none;
+  font-size: 20px;  
 }
